@@ -1,6 +1,7 @@
 .scroll-reveal {
     margin: 20px 0;
     color: white;
+    width: auto;
   }
   
   .scroll-reveal-text {
