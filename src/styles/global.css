@@ -1,0 +1,12 @@
+@import url(./Header.css);
+@import url(./hero.css);
+@import url(./SplitText.css);
+@import url(./aurora.css);
+@import url("https://use.typekit.net/jls6lgo.css");
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--corFundo);
+}

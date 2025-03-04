@@ -1,0 +1,55 @@
+h1 {
+    font-family: neulis-sans, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+}
+
+.container-hero {
+    display: flex;
+    margin: 0px 60px 0px 60px;
+
+}
+.direita {
+    width: 50%;
+    display: flex
+;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.hero-btn button {
+    padding: 20px;
+    background-color: transparent;
+    border: 0.5px solid white;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 235px;
+    font-family: "neulis-sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    gap: 30px;
+    cursor: pointer;
+    transition: background-color 0.5s, color 0.5s;
+    font-size: 1rem;
+
+    &&:hover {
+        background-color: white;
+        color: black;
+    }
+}
+
+
+.esquerda {
+    width: 50%;
+}
+.img-small {
+    width: 100%; /* Defina a largura desejada */
+    height: auto; /* Mantém a proporção da imagem */
+}
+.img-small img {
+    width: 100px; /* Defina a largura desejada */
+    height: auto; /* Mantém a proporção da imagem */
+}
