@@ -1,0 +1,22 @@
+.scroll-reveal {
+    margin: 20px 0;
+    color: white;
+    width: auto;
+  }
+  
+  .scroll-reveal-text {
+    font-size: clamp(1.6rem, 4vw, 3rem);
+    line-height: 1.5;
+    font-size: 35pt;
+    font-family: "neulis-sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    width: auto;
+  }
+  
+  .word {
+    display: inline-block;
+    color: white;
+    width: auto;
+  }

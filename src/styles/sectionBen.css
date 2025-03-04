@@ -1,0 +1,13 @@
+.section-ben{
+    display: flex;
+    margin-top: 42px ;
+}
+.direitaSection{
+    width: 50%;
+}
+.esquerdaSection{
+    width: 50%;
+    display: flex;
+    height: auto;
+    margin-bottom: 200px;
+}
