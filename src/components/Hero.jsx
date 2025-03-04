@@ -40,7 +40,7 @@ function Hero() {
                 </div>
                 <div className="esquerda">
                     <FadeContent blur={true} duration={1000} easing="ease-out" initialOpacity={0}>
-                    <img className='img-small' src=".\public\img\telas task-12-12.png" alt="logoImg" />
+                    <img className='img-small' src="./img/telaTask-hero-12.png" alt="logoImg" />
                     </FadeContent>
                 </div>
             </div>

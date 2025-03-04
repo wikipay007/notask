@@ -5,7 +5,7 @@ function Header() {
   return (
     <header>
         <div className="imgLogo">
-        <img src=".\public\img\chronotask - logo-10.png" alt="logoImg" />
+        <img src="./img/notaskLogoBranco.png" alt="logoImg" />
         </div>
         <div className="links">
             <a href="#">O projeto</a>
