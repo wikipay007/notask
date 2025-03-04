@@ -46,7 +46,7 @@ h1 {
     width: 50%;
 }
 .img-small {
-    width: 100%; /* Defina a largura desejada */
+    width: 98%; /* Defina a largura desejada */
     height: auto; /* Mantém a proporção da imagem */
 }
 .img-small img {
