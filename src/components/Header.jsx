@@ -14,7 +14,7 @@ function Header() {
         </div>
         <div className="buttons">
             <button className='login'>Entre</button>
-            <button className='cadastro' >Cadastre-se <GoArrowRight/> </button>
+            <button className='cadastro'>Cadastre-se <GoArrowRight/> </button>
         </div>
         
     </header>
