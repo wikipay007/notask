@@ -1,6 +1,8 @@
-.section-ben{
+.section-ben {
     display: flex;
-    margin-top: 42px ;
+    margin-top: 42px;
+    width: 91%;
+    margin: auto;
 }
 .direitaSection{
     width: 50%;
