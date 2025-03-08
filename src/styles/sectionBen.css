@@ -1,11 +1,15 @@
 .section-ben {
     display: flex;
-    margin-top: 42px;
+    margin-top: 82px;
     width: 91%;
     margin: auto;
+
 }
 .direitaSection{
     width: 50%;
+}
+.card{
+    color: white;
 }
 .esquerdaSection{
     width: 50%;

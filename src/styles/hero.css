@@ -7,13 +7,12 @@ h1 {
 
 .container-hero {
     display: flex;
-    margin: 0px 60px 0px 60px;
-
+    margin: 0px 60px 80px 60px;
 }
+
 .direita {
     width: 50%;
-    display: flex
-;
+    display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
@@ -45,11 +44,17 @@ h1 {
 .esquerda {
     width: 50%;
 }
+
 .img-small {
-    width: 98%; /* Defina a largura desejada */
-    height: auto; /* Mantém a proporção da imagem */
+    width: 98%;
+    /* Defina a largura desejada */
+    height: auto;
+    /* Mantém a proporção da imagem */
 }
+
 .img-small img {
-    width: 100px; /* Defina a largura desejada */
-    height: auto; /* Mantém a proporção da imagem */
+    width: 100px;
+    /* Defina a largura desejada */
+    height: auto;
+    /* Mantém a proporção da imagem */
 }
