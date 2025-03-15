@@ -1,19 +1,18 @@
-import Header from "./components/Header";
-import './styles/global.css';
-import Hero from "./components/Hero";
-import SectionBen from "./components/SectionBen";
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './pages/Home'; // Crie este componente se necessário
+import Login from './pages/login';
+
 
 function App() {
-
   return (
-    <>
-      <div>
-        <Header></Header>
-        <Hero></Hero>
-        <SectionBen></SectionBen>
-      </div>
-    </>
-  )
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;
