@@ -1,0 +1,15 @@
+form{
+    margin: auto;
+    width: 30%;
+    border-radius: 8px;
+    background-color: #ccc;
+    padding: 16px;
+    align-items: center;
+    text-align: center;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;   
+}
