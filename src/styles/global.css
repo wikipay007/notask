@@ -4,7 +4,9 @@
 @import url(./aurora.css);
 @import url(./ScrollReveal.css);
 @import url(./sectionBen.css);
+@import url(Modal.css);
 @import url("https://use.typekit.net/jls6lgo.css");
+
 *{
     margin: 0;
     padding: 0;
